@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ContainerComponent } from './components/container/container.component';
 import { HeadersComponent } from './components/headers/headers.component';
 import { RowTemplateComponent } from './components/row-template/row-template.component';
+import { ActionsComponent } from './components/actions/actions.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerComponent,
     HeadersComponent,
-    RowTemplateComponent
+    RowTemplateComponent,
+    ActionsComponent
   ],
   imports: [
     BrowserModule,
